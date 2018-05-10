@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let config = ParseClientConfiguration { (theConfig) in
+            theConfig.applicationId = "emberisacoolappandthisistheid"
+            theConfig.server = "http://ember-server.herokuapp.com/parse"
+            theConfig.clientKey = "cheeseisverytastttyandthisisacoolmasterkey"
+            
+        }
+        Parse.initialize(with: config)
+        
+ //   Used to locally launch the Parse server
+//        parse-dashboard --appId emberisacoolappandthisistheid --masterKey cheeseisverytastttyandthisisacoolmasterkey --serverURL "http://ember-server.herokuapp.com/parse" --appName emberApp
+
+        
         return true
     }
 
