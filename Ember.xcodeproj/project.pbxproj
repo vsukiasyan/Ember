@@ -16,6 +16,7 @@
 		676203D520A40C4E00F79BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676203D320A40C4E00F79BAC /* LaunchScreen.storyboard */; };
 		676203E020A40C4E00F79BAC /* EmberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676203DF20A40C4E00F79BAC /* EmberTests.swift */; };
 		676203EB20A40C4E00F79BAC /* EmberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676203EA20A40C4E00F79BAC /* EmberUITests.swift */; };
+		676203F920A5056000F79BAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676203F820A5056000F79BAC /* LoginViewController.swift */; };
 		B6FE4C385D52D0D8279867A6 /* Pods_EmberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4456537353F90D3952E9DC89 /* Pods_EmberTests.framework */; };
 		FE0E7393B49B0AC3A2F1F1BF /* Pods_Ember.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D033FD77F88F0C4FB483DD /* Pods_Ember.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		676203E620A40C4E00F79BAC /* EmberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676203EA20A40C4E00F79BAC /* EmberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberUITests.swift; sourceTree = "<group>"; };
 		676203EC20A40C4E00F79BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676203F820A5056000F79BAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		67D033FD77F88F0C4FB483DD /* Pods_Ember.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ember.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F287E3F4EF2C9D6CA45480 /* Pods-EmberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmberTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmberTests/Pods-EmberTests.release.xcconfig"; sourceTree = "<group>"; };
 		C74A8C9EC9C4F3DF674D706D /* Pods_EmberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 			children = (
 				676203C720A40C4E00F79BAC /* AppDelegate.swift */,
 				676203C920A40C4E00F79BAC /* ViewController.swift */,
+				676203F820A5056000F79BAC /* LoginViewController.swift */,
 				676203CB20A40C4E00F79BAC /* Main.storyboard */,
 				676203D120A40C4E00F79BAC /* Assets.xcassets */,
 				676203D320A40C4E00F79BAC /* LaunchScreen.storyboard */,
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676203F920A5056000F79BAC /* LoginViewController.swift in Sources */,
 				676203CA20A40C4E00F79BAC /* ViewController.swift in Sources */,
 				676203D020A40C4E00F79BAC /* Ember.xcdatamodeld in Sources */,
 				676203C820A40C4E00F79BAC /* AppDelegate.swift in Sources */,
